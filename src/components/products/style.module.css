@@ -1,0 +1,215 @@
+.products_main {
+    border: 1px solid #E5E7EB;
+    padding: 25px 15px;
+    height: 100%;
+    position: relative;
+}
+
+.pm_top {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 90%;
+    left: 10px;
+}
+
+.pm_top span {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 100px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: center;
+    color: #fff;
+    background-color: #DC2626;
+}
+
+.product_img img {
+    width: 158px;
+    height: 158px;
+    object-fit: contain;
+}
+
+.product_count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pc_cnt1 {
+    display: flex;
+    gap: 2px;
+    width: 80.19px;
+    height: 24px;
+    padding: 5px 9.66px 5px 6px;
+    border-radius: 14px 40px 40px 14px;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: -0.3199999928474426px;
+    text-align: center;
+    color: #166534;
+    background: linear-gradient(90deg, #D4FC79 0%, #96E6A1 50%);
+}
+
+.pc_cnt2 {
+    display: flex;
+    gap: 2px;
+    width: 80.19px;
+    height: 24px;
+    padding: 5px 9.66px 5px 6px;
+    border-radius: 14px 40px 40px 14px;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: -0.3199999928474426px;
+    text-align: center;
+    color: #0891B2;
+    background: linear-gradient(90deg, #A5EFFF 0%, #E7F8FD 50%);
+}
+
+.pc_input {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 8px 10px -6px #0000001A;
+    width: 96px;
+    height: 32px;
+    border: 1px solid #eceaef;
+    border-radius: 100px;
+}
+
+.product_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_content {
+    flex: 1;
+}
+
+.pc_input input {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    width: 32px;
+    height: 42px;
+    padding: 12px 0px 13px 0px;
+}
+
+.pc_input button {
+    border: none;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    opacity: 0.7px;
+    color: #634C9F;
+    transition: all ease-in-out 0.3s;
+}
+
+.pc_input button:hover {
+    color: #fff;
+    background-color: #634C9F;
+}
+
+.pc_input button:first-child:hover {
+    border-radius: 50px 0 0 50px;
+}
+
+.pc_input button:last-child:hover {
+    border-radius: 0 50px 50px 0;
+}
+
+.product_star {
+    color: #FACC15;
+}
+
+.product_star>span {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-left: 8px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    color: #6B7280;
+}
+
+.product_cnt>h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.2px;
+    letter-spacing: -0.2800000011920929px;
+    text-align: left;
+    margin: 7px 0 19px 0;
+    color: #030712;
+}
+
+.product_price {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.product_price span {
+    font-family: Barlow;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.4399999976158142px;
+    margin-bottom: 11px;
+    text-align: left;
+    color: #DC2626;
+}
+
+.product_price del {
+    font-family: Barlow;
+    font-size: 16.1px;
+    font-weight: 500;
+    line-height: 16.06px;
+    letter-spacing: -0.4399999976158142px;
+    text-align: left;
+    color: #111827;
+}
+
+.product_available {
+    border-top: 1px solid #E5E7EB;
+}
+
+.product_available>span {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.31px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    color: #9CA3AF;
+}
+
+.pa_clr {
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #FFD200 0%, #DC2626 100%);
+    margin: 8px 0;
+}
+
+.product_available>p {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    color: #6B7280;
+}
+
+.product_stock>span {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: -0.3199999928474426px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #16A34A;
+}

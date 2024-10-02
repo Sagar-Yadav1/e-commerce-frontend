@@ -1,0 +1,84 @@
+.hero_section {
+    height: 560px;
+    overflow: hidden;
+}
+
+.herowrap {
+    margin-left: 90px;
+}
+
+.hero_cnt>span {
+    background: linear-gradient(90deg, rgba(22, 163, 74, 0.5) 0%, rgba(34, 197, 94, 0) 60%);
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    color: #166534;
+}
+
+.hero_cnt h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62.4px;
+    margin: 11px 0 !important;
+    letter-spacing: -1.399999976158142px;
+    text-align: left;
+    color: #39245F;
+}
+
+.hero_cnt>p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    color: #030712;
+}
+
+.hero_btn {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 41px;
+}
+
+.shop_btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.hero_price span {
+    font-family: "Barlow" sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.5600000023841858px;
+    text-align: left;
+    color: #DC2626;
+}
+
+.hero_price del {
+    font-family: Barlow;
+    font-size: 19.6px;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing: -0.5600000023841858px;
+    text-align: left;
+    color: #111827;
+}
+
+.hero_price>p {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.31px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    opacity: 50%;
+    color: #030712;
+}

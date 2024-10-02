@@ -1,0 +1,148 @@
+.dealsProduct {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.deals_percent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deals_percent span {
+    color: #fff;
+    background-color: #DC2626;
+    border-radius: 20px;
+    padding: 4px 12px;
+}
+
+.pc_cnt {
+    margin-bottom: 10px;
+}
+
+.pc_cnt1 {
+    display: flex;
+    gap: 2px;
+    width: 80.19px;
+    height: 24px;
+    padding: 5px 9.66px 5px 6px;
+    border-radius: 14px 40px 40px 14px;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: -0.3199999928474426px;
+    text-align: center;
+    color: #166534;
+    background: linear-gradient(90deg, #D4FC79 0%, #96E6A1 50%);
+}
+
+.pc_cnt2 {
+    display: flex;
+    gap: 2px;
+    width: 80.19px;
+    height: 24px;
+    padding: 5px 9.66px 5px 6px;
+    border-radius: 14px 40px 40px 14px;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: -0.3199999928474426px;
+    text-align: center;
+    color: #0891B2;
+    background: linear-gradient(90deg, #A5EFFF 0%, #E7F8FD 50%);
+}
+
+.dp_img img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.deal_sale {
+    display: flex;
+    gap: 5px;
+}
+
+.deal_sale>span {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.52px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    color: #4B5563;
+    background-color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    padding: 6px;
+}
+
+.dp_cnt>h2 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.2px;
+    letter-spacing: -0.2800000011920929px;
+    text-align: left;
+    color: #030712;
+    margin-bottom: 10px;
+}
+
+.dp_star {
+    color: #FACC15;
+}
+
+.dp_star {
+    margin: 15px 0;
+
+}
+
+.dp_star>span {
+    color: #4B5563;
+}
+
+.dp_price>span {
+    font-family: Barlow;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.4399999976158142px;
+    text-align: left;
+    color: #DC2626;
+}
+
+.dp_price>del {
+    font-family: Barlow;
+    font-size: 16.1px;
+    font-weight: 500;
+    line-height: 16.06px;
+    letter-spacing: -0.4399999976158142px;
+    text-align: left;
+    color: #111827;
+}
+
+.deal_btn {
+    position: relative;
+    margin-top: 12px;
+}
+
+.deal_btn button {
+    border: 1px solid #634C9F;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.25999999046325684px;
+    text-align: left;
+    color: #634C9F;
+    padding: 3px 108px 3px 25px;
+    border-radius: 50px;
+}
+
+.db_icon {
+    position: absolute;
+    position: absolute;
+    left: 60%;
+    top: 12px;
+    font-size: 16px;
+    color: #634C9F;
+}

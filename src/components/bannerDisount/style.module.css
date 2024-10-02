@@ -1,0 +1,46 @@
+.banner_main {
+    display: flex;
+    border: 1px solid #FFEDD5;
+    background-color: #FFF7ED;
+    padding: 21px 31px;
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+}
+
+.banner_cnt h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.63px;
+    letter-spacing: -0.4399999976158142px;
+    text-align: left;
+    color: #EA580C;
+}
+
+.banner_cnt span {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    color: #6B7280;
+}
+
+.banner_discount {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Inter", sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 169px;
+    letter-spacing: -8px;
+    text-align: left;
+    background-image: linear-gradient(0deg, rgba(234, 88, 12, 0.4) 0%, rgba(234, 88, 12, 0) 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

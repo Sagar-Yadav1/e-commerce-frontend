@@ -1,0 +1,30 @@
+.card_section {
+    padding: 0;
+    margin: 45px 0 80px 0;
+}
+
+.cards_wrap {
+    display: flex;
+    gap: 20px;
+}
+
+.cards_cnt h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    margin-bottom: 6px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    color: #030712;
+}
+
+.cards_cnt span {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    /* line-height: 18.21px; */
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    color: #6B7280;
+}

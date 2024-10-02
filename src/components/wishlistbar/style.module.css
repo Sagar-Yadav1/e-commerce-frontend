@@ -1,0 +1,21 @@
+.wishlistbar {
+    display: flex;
+}
+
+.wishlistbar button {
+    border: none;
+    background-color: transparent;
+}
+
+.wishlistbar span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DC2626;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+    width: 17px;
+    height: 17px;
+}

@@ -1,0 +1,80 @@
+.category_head {
+    padding: 23px 0;
+}
+
+.category_wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.category_head h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    letter-spacing: -0.36000001430511475px;
+    text-align: left;
+    color: #030712;
+}
+
+.category_head span {
+    margin-left: 16px;
+    flex: 1;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.73px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    color: #9CA3AF;
+}
+
+.cat_btn {
+    border: 1px solid #E5E7EB;
+    border-radius: 100px;
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 12px;
+    letter-spacing: -0.23999999463558197px;
+    text-align: center;
+    color: #212529;
+}
+
+.category_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.arrival_wrraper {
+    display: flex;
+}
+
+
+.feature_wrraper {
+    display: flex;
+}
+
+.feature_product {
+    width: 25%;
+}
+
+.product_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dealdata1 {
+    margin-bottom: 26px;
+}
+
+.dealmain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
